@@ -7,9 +7,9 @@
         android:title="@string/title_home" />
 
     <item
-        android:id="@+id/navigation_kaspi_qr"
+        android:id="@+id/navigation_tengiz_qr"
         android:icon="@drawable/baseline_qr_code_scanner_24"
-        android:title="@string/title_kaspi_qr" />
+        android:title="@string/title_tengiz_qr" />
 
     <item
         android:id="@+id/navigation_notifications"

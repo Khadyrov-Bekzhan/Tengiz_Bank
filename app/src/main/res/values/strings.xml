@@ -1,7 +1,16 @@
 <resources>
-    <string name="app_name">Kaspi</string>
+    <string name="app_name">Tengiz Bank</string>
     <string name="title_home">Home</string>
-    <string name="title_kaspi_qr">Kaspi QR</string>
+    <string name="title_tengiz_qr">Tengiz QR</string>
     <string name="title_notifications">Notifications</string>
     <string name="title_services">Services</string>
+
+    <!-- Notifications Fragment -->
+    <string name="no_messages">У вас пока нет сообщений</string>
+    <string name="new_message">Новое сообщение</string>
+    <string name="message_details">Детали сообщения</string>
+    <string name="create_message">Создать сообщение</string>
+    <string name="notification_payment">Уведомление о платеже</string>
+    <string name="notification_promo">Акция</string>
+    <string name="notification_security">Безопасность</string>
 </resources>

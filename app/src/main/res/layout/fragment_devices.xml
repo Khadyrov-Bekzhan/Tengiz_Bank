@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Заголовок страницы -->
+        <TextView
+            android:id="@+id/tvDevicesHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Устройства"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp" />
+
+        <!-- Первое устройство -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:background="@android:color/white"
+            android:elevation="2dp"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_device"
+                android:contentDescription="Иконка устройства"
+                android:layout_gravity="center_vertical" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:paddingStart="16dp">
+
+                <TextView
+                    android:id="@+id/tvDeviceName1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Устройство 1"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvDeviceStatus1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Подключено"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/holo_green_dark"
+                    android:paddingTop="4dp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnToggleDevice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Отключить"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+
+        <!-- Второе устройство -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:background="@android:color/white"
+            android:elevation="2dp"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_device"
+                android:contentDescription="Иконка устройства"
+                android:layout_gravity="center_vertical" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:paddingStart="16dp">
+
+                <TextView
+                    android:id="@+id/tvDeviceName2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Устройство 2"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvDeviceStatus2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Отключено"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:paddingTop="4dp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnToggleDevice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Подключить"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+
+        <!-- Добавьте дополнительные устройства по аналогии -->
+
+    </LinearLayout>
+</ScrollView>

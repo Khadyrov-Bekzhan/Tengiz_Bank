@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <style name="CustomMaterialButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:backgroundTint">#FFAB00</item>
+        <item name="iconGravity">top</item>
+        <item name="iconSize">20dp</item>
+        <item name="iconPadding">8dp</item>
+        <item name="iconTint">#FF000000</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="elevation">8dp</item>
+    </style>
+
+    <style name="CustomImageButtonCard" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">8dp</item>
+        <item name="rippleColor">#33000000</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:backgroundTint">#FFAB00</item>
+    </style>
+</resources>

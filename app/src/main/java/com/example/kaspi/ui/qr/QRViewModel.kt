@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModel
 class QRViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is Kaspi QR Fragment"
+        value = "This is Tengiz QR Fragment"
     }
     val text: LiveData<String> = _text
 }

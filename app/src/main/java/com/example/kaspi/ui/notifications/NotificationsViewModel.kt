@@ -5,9 +5,15 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
 class NotificationsViewModel : ViewModel() {
+    private val _messages = MutableLiveData<List<Message>>()
+    val messages: LiveData<List<Message>> = _messages
 
-    private val _text = MutableLiveData<String>().apply {
-        value = "This is notifications Fragment"
+    init {
+        loadMessages()
     }
-    val text: LiveData<String> = _text
+
+    private fun loadMessages() {
+        // Использование демо-данных из компаньон объекта
+        _messages.value = Message.createDemoMessages()
+    }
 }

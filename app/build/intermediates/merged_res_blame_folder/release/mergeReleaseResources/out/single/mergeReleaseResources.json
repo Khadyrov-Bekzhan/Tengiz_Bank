@@ -1,0 +1,194 @@
+[
+    {
+        "merged": "com.example.kaspi.app-release-61:/drawable_cross.webp.flat",
+        "source": "com.example.kaspi.app-main-62:/drawable/cross.webp"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/drawable_cat.webp.flat",
+        "source": "com.example.kaspi.app-main-62:/drawable/cat.webp"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/drawable_travel.webp.flat",
+        "source": "com.example.kaspi.app-main-62:/drawable/travel.webp"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.kaspi.app-main-62:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/drawable_baseline_devices_other_24.xml.flat",
+        "source": "com.example.kaspi.app-main-62:/drawable/baseline_devices_other_24.xml"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/layout_fragment_services.xml.flat",
+        "source": "com.example.kaspi.app-main-62:/layout/fragment_services.xml"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.example.kaspi.app-main-62:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/drawable_splash_background.xml.flat",
+        "source": "com.example.kaspi.app-main-62:/drawable/splash_background.xml"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.kaspi.app-main-62:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/layout_fragment_notifications.xml.flat",
+        "source": "com.example.kaspi.app-main-62:/layout/fragment_notifications.xml"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.kaspi.app-main-62:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/anim_fade_in.xml.flat",
+        "source": "com.example.kaspi.app-main-62:/anim/fade_in.xml"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/drawable_sharp_article_24.xml.flat",
+        "source": "com.example.kaspi.app-main-62:/drawable/sharp_article_24.xml"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/drawable_baseline_insert_chart_outlined_24.xml.flat",
+        "source": "com.example.kaspi.app-main-62:/drawable/baseline_insert_chart_outlined_24.xml"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/layout_fragment_home.xml.flat",
+        "source": "com.example.kaspi.app-main-62:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/drawable_baseline_message_24.xml.flat",
+        "source": "com.example.kaspi.app-main-62:/drawable/baseline_message_24.xml"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.kaspi.app-main-62:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/drawable_kitchen.webp.flat",
+        "source": "com.example.kaspi.app-main-62:/drawable/kitchen.webp"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.kaspi.app-main-62:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.kaspi.app-main-62:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.kaspi.app-main-62:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.kaspi.app-main-62:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/drawable_baseline_dehaze_24.xml.flat",
+        "source": "com.example.kaspi.app-main-62:/drawable/baseline_dehaze_24.xml"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/layout_shopping_fragment.xml.flat",
+        "source": "com.example.kaspi.app-main-62:/layout/shopping_fragment.xml"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/layout_fragment_qr.xml.flat",
+        "source": "com.example.kaspi.app-main-62:/layout/fragment_qr.xml"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/layout_activity_main.xml.flat",
+        "source": "com.example.kaspi.app-main-62:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.kaspi.app-main-62:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/drawable_baseline_qr_code_scanner_24.xml.flat",
+        "source": "com.example.kaspi.app-main-62:/drawable/baseline_qr_code_scanner_24.xml"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/drawable_button_background.xml.flat",
+        "source": "com.example.kaspi.app-main-62:/drawable/button_background.xml"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/drawable_baseline_account_balance_24.xml.flat",
+        "source": "com.example.kaspi.app-main-62:/drawable/baseline_account_balance_24.xml"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/drawable_baseline_chrome_reader_mode_24.xml.flat",
+        "source": "com.example.kaspi.app-main-62:/drawable/baseline_chrome_reader_mode_24.xml"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/drawable_turtle.webp.flat",
+        "source": "com.example.kaspi.app-main-62:/drawable/turtle.webp"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.kaspi.app-main-62:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.kaspi.app-main-62:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/drawable_ic_home_black_24dp.xml.flat",
+        "source": "com.example.kaspi.app-main-62:/drawable/ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/layout_activity_splash.xml.flat",
+        "source": "com.example.kaspi.app-main-62:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/drawable_baseline_shopping_cart_24.xml.flat",
+        "source": "com.example.kaspi.app-main-62:/drawable/baseline_shopping_cart_24.xml"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/drawable_baseline_local_mall_24.xml.flat",
+        "source": "com.example.kaspi.app-main-62:/drawable/baseline_local_mall_24.xml"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.kaspi.app-main-62:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/navigation_mobile_navigation.xml.flat",
+        "source": "com.example.kaspi.app-main-62:/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/drawable_bulb.webp.flat",
+        "source": "com.example.kaspi.app-main-62:/drawable/bulb.webp"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/drawable_baseline_repeat_24.xml.flat",
+        "source": "com.example.kaspi.app-main-62:/drawable/baseline_repeat_24.xml"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/xml_backup_rules.xml.flat",
+        "source": "com.example.kaspi.app-main-62:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.kaspi.app-main-62:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.kaspi.app-main-62:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.kaspi.app-main-62:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/drawable_tengiz_logo.png.flat",
+        "source": "com.example.kaspi.app-main-62:/drawable/tengiz_logo.png"
+    },
+    {
+        "merged": "com.example.kaspi.app-release-61:/drawable_baseline_search_24.xml.flat",
+        "source": "com.example.kaspi.app-main-62:/drawable/baseline_search_24.xml"
+    }
+]

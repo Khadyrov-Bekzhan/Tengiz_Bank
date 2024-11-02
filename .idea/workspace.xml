@@ -13,129 +13,14 @@
           <theme>@style/Theme.Tengiz</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_amazon.xml">
-        <config>
-          <theme>@style/Theme.Tengiz</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_articles.xml">
-        <config>
-          <theme>@style/Theme.Tengiz</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_devices.xml">
-        <config>
-          <theme>@style/Theme.Tengiz</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_documents.xml">
-        <config>
-          <theme>@style/Theme.Tengiz</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_goverment.xml">
-        <config>
-          <theme>@style/Theme.Tengiz</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_halyk.xml">
-        <config>
-          <theme>@style/Theme.Tengiz</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml">
-        <config>
-          <theme>@style/Theme.Tengiz</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_kaspi.xml">
-        <config>
-          <theme>@style/Theme.Tengiz</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_magnum.xml">
-        <config>
-          <theme>@style/Theme.Tengiz</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_message_detail.xml">
-        <config>
-          <theme>@style/Theme.Tengiz</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_notifications.xml">
-        <config>
-          <theme>@style/Theme.Tengiz</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_qr.xml">
-        <config>
-          <theme>@style/Theme.Tengiz</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_services.xml">
-        <config>
-          <theme>@style/Theme.Tengiz</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_statistics.xml">
-        <config>
-          <theme>@style/Theme.Tengiz</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_store.xml">
-        <config>
-          <theme>@style/Theme.Tengiz</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_transactions.xml">
-        <config>
-          <theme>@style/Theme.Tengiz</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_travel.xml">
-        <config>
-          <theme>@style/Theme.Tengiz</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_document.xml">
-        <config>
-          <theme>@style/Theme.Tengiz</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_message.xml">
-        <config>
-          <theme>@style/Theme.Tengiz</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_product.xml">
-        <config>
-          <theme>@style/Theme.Tengiz</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_transaction.xml">
-        <config>
-          <theme>@style/Theme.Tengiz</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/menu/bottom_nav_menu.xml">
-        <config>
-          <theme>@style/Theme.Tengiz</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml">
-        <config>
-          <theme>@style/Theme.Tengiz</theme>
-        </config>
-      </layout>
     </layouts>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c16207e7-ccf4-4e9b-9f22-359bcff4381c" name="Changes" comment="git push -u origin master">
-      <change beforePath="$PROJECT_DIR$/tengiz.jks" beforeDir="false" />
+    <list default="true" id="dee95eba-6f61-48b6-92cd-85c912eb8dd3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_devices.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_devices.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,6 +41,44 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Kaspi" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Kaspi" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Kaspi" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Kaspi" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -486,7 +409,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master1" />
+                        <option value="tengiz/master" />
                       </list>
                     </value>
                   </entry>

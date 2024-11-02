@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.GridLayout;
 import android.widget.HorizontalScrollView;
+import android.widget.ImageButton;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -24,31 +25,40 @@ public final class FragmentHomeBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final GridLayout additionalButtonGrid;
+
+  @NonNull
   public final GridLayout buttonGrid;
 
   @NonNull
-  public final MaterialCardView cardBulb;
+  public final MaterialCardView card1;
 
   @NonNull
-  public final MaterialCardView cardCat;
+  public final MaterialCardView card2;
 
   @NonNull
-  public final MaterialCardView cardCross;
+  public final MaterialCardView card3;
 
   @NonNull
-  public final MaterialCardView cardKitchen;
+  public final MaterialCardView card4;
 
   @NonNull
-  public final MaterialCardView cardTravel;
-
-  @NonNull
-  public final MaterialCardView cardTurtle;
+  public final MaterialCardView card5;
 
   @NonNull
   public final HorizontalScrollView horizontalScroll;
 
   @NonNull
   public final MaterialButton imageButton1;
+
+  @NonNull
+  public final ImageButton imageButton10;
+
+  @NonNull
+  public final ImageButton imageButton11;
+
+  @NonNull
+  public final ImageButton imageButton12;
 
   @NonNull
   public final MaterialButton imageButton2;
@@ -72,27 +82,36 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final MaterialButton imageButton8;
 
   @NonNull
+  public final ImageButton imageButton9;
+
+  @NonNull
   public final EditText searchEditText;
 
-  private FragmentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull GridLayout buttonGrid,
-      @NonNull MaterialCardView cardBulb, @NonNull MaterialCardView cardCat,
-      @NonNull MaterialCardView cardCross, @NonNull MaterialCardView cardKitchen,
-      @NonNull MaterialCardView cardTravel, @NonNull MaterialCardView cardTurtle,
-      @NonNull HorizontalScrollView horizontalScroll, @NonNull MaterialButton imageButton1,
+  private FragmentHomeBinding(@NonNull ConstraintLayout rootView,
+      @NonNull GridLayout additionalButtonGrid, @NonNull GridLayout buttonGrid,
+      @NonNull MaterialCardView card1, @NonNull MaterialCardView card2,
+      @NonNull MaterialCardView card3, @NonNull MaterialCardView card4,
+      @NonNull MaterialCardView card5, @NonNull HorizontalScrollView horizontalScroll,
+      @NonNull MaterialButton imageButton1, @NonNull ImageButton imageButton10,
+      @NonNull ImageButton imageButton11, @NonNull ImageButton imageButton12,
       @NonNull MaterialButton imageButton2, @NonNull MaterialButton imageButton3,
       @NonNull MaterialButton imageButton4, @NonNull MaterialButton imageButton5,
       @NonNull MaterialButton imageButton6, @NonNull MaterialButton imageButton7,
-      @NonNull MaterialButton imageButton8, @NonNull EditText searchEditText) {
+      @NonNull MaterialButton imageButton8, @NonNull ImageButton imageButton9,
+      @NonNull EditText searchEditText) {
     this.rootView = rootView;
+    this.additionalButtonGrid = additionalButtonGrid;
     this.buttonGrid = buttonGrid;
-    this.cardBulb = cardBulb;
-    this.cardCat = cardCat;
-    this.cardCross = cardCross;
-    this.cardKitchen = cardKitchen;
-    this.cardTravel = cardTravel;
-    this.cardTurtle = cardTurtle;
+    this.card1 = card1;
+    this.card2 = card2;
+    this.card3 = card3;
+    this.card4 = card4;
+    this.card5 = card5;
     this.horizontalScroll = horizontalScroll;
     this.imageButton1 = imageButton1;
+    this.imageButton10 = imageButton10;
+    this.imageButton11 = imageButton11;
+    this.imageButton12 = imageButton12;
     this.imageButton2 = imageButton2;
     this.imageButton3 = imageButton3;
     this.imageButton4 = imageButton4;
@@ -100,6 +119,7 @@ public final class FragmentHomeBinding implements ViewBinding {
     this.imageButton6 = imageButton6;
     this.imageButton7 = imageButton7;
     this.imageButton8 = imageButton8;
+    this.imageButton9 = imageButton9;
     this.searchEditText = searchEditText;
   }
 
@@ -130,45 +150,45 @@ public final class FragmentHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.additional_button_grid;
+      GridLayout additionalButtonGrid = ViewBindings.findChildViewById(rootView, id);
+      if (additionalButtonGrid == null) {
+        break missingId;
+      }
+
       id = R.id.button_grid;
       GridLayout buttonGrid = ViewBindings.findChildViewById(rootView, id);
       if (buttonGrid == null) {
         break missingId;
       }
 
-      id = R.id.card_bulb;
-      MaterialCardView cardBulb = ViewBindings.findChildViewById(rootView, id);
-      if (cardBulb == null) {
+      id = R.id.card_1;
+      MaterialCardView card1 = ViewBindings.findChildViewById(rootView, id);
+      if (card1 == null) {
         break missingId;
       }
 
-      id = R.id.card_cat;
-      MaterialCardView cardCat = ViewBindings.findChildViewById(rootView, id);
-      if (cardCat == null) {
+      id = R.id.card_2;
+      MaterialCardView card2 = ViewBindings.findChildViewById(rootView, id);
+      if (card2 == null) {
         break missingId;
       }
 
-      id = R.id.card_cross;
-      MaterialCardView cardCross = ViewBindings.findChildViewById(rootView, id);
-      if (cardCross == null) {
+      id = R.id.card_3;
+      MaterialCardView card3 = ViewBindings.findChildViewById(rootView, id);
+      if (card3 == null) {
         break missingId;
       }
 
-      id = R.id.card_kitchen;
-      MaterialCardView cardKitchen = ViewBindings.findChildViewById(rootView, id);
-      if (cardKitchen == null) {
+      id = R.id.card_4;
+      MaterialCardView card4 = ViewBindings.findChildViewById(rootView, id);
+      if (card4 == null) {
         break missingId;
       }
 
-      id = R.id.card_travel;
-      MaterialCardView cardTravel = ViewBindings.findChildViewById(rootView, id);
-      if (cardTravel == null) {
-        break missingId;
-      }
-
-      id = R.id.card_turtle;
-      MaterialCardView cardTurtle = ViewBindings.findChildViewById(rootView, id);
-      if (cardTurtle == null) {
+      id = R.id.card_5;
+      MaterialCardView card5 = ViewBindings.findChildViewById(rootView, id);
+      if (card5 == null) {
         break missingId;
       }
 
@@ -181,6 +201,24 @@ public final class FragmentHomeBinding implements ViewBinding {
       id = R.id.imageButton1;
       MaterialButton imageButton1 = ViewBindings.findChildViewById(rootView, id);
       if (imageButton1 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageButton10;
+      ImageButton imageButton10 = ViewBindings.findChildViewById(rootView, id);
+      if (imageButton10 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageButton11;
+      ImageButton imageButton11 = ViewBindings.findChildViewById(rootView, id);
+      if (imageButton11 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageButton12;
+      ImageButton imageButton12 = ViewBindings.findChildViewById(rootView, id);
+      if (imageButton12 == null) {
         break missingId;
       }
 
@@ -226,16 +264,22 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageButton9;
+      ImageButton imageButton9 = ViewBindings.findChildViewById(rootView, id);
+      if (imageButton9 == null) {
+        break missingId;
+      }
+
       id = R.id.search_edit_text;
       EditText searchEditText = ViewBindings.findChildViewById(rootView, id);
       if (searchEditText == null) {
         break missingId;
       }
 
-      return new FragmentHomeBinding((ConstraintLayout) rootView, buttonGrid, cardBulb, cardCat,
-          cardCross, cardKitchen, cardTravel, cardTurtle, horizontalScroll, imageButton1,
-          imageButton2, imageButton3, imageButton4, imageButton5, imageButton6, imageButton7,
-          imageButton8, searchEditText);
+      return new FragmentHomeBinding((ConstraintLayout) rootView, additionalButtonGrid, buttonGrid,
+          card1, card2, card3, card4, card5, horizontalScroll, imageButton1, imageButton10,
+          imageButton11, imageButton12, imageButton2, imageButton3, imageButton4, imageButton5,
+          imageButton6, imageButton7, imageButton8, imageButton9, searchEditText);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

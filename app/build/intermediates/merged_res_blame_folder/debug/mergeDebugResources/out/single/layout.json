@@ -1,110 +1,90 @@
 [
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-mergeDebugResources-60:\\layout\\fragment_statistic.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-main-63:\\layout\\fragment_statistic.xml"
+        "merged": "com.example.kaspi.app-mergeDebugResources-60:/layout/item_transaction.xml",
+        "source": "com.example.kaspi.app-main-63:/layout/item_transaction.xml"
+    },
+    {
+        "merged": "com.example.kaspi.app-mergeDebugResources-60:/layout/fragment_magnum.xml",
+        "source": "com.example.kaspi.app-main-63:/layout/fragment_magnum.xml"
+    },
+    {
+        "merged": "com.example.kaspi.app-mergeDebugResources-60:/layout/fragment_devices.xml",
+        "source": "com.example.kaspi.app-main-63:/layout/fragment_devices.xml"
+    },
+    {
+        "merged": "com.example.kaspi.app-mergeDebugResources-60:/layout/fragment_travel.xml",
+        "source": "com.example.kaspi.app-main-63:/layout/fragment_travel.xml"
     },
     {
         "merged": "com.example.kaspi.app-mergeDebugResources-60:/layout/fragment_transactions.xml",
         "source": "com.example.kaspi.app-main-63:/layout/fragment_transactions.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-mergeDebugResources-60:\\layout\\fragment_home.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-main-63:\\layout\\fragment_home.xml"
+        "merged": "com.example.kaspi.app-mergeDebugResources-60:/layout/fragment_documents.xml",
+        "source": "com.example.kaspi.app-main-63:/layout/fragment_documents.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-mergeDebugResources-60:\\layout\\fragment_halyk.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-main-63:\\layout\\fragment_halyk.xml"
+        "merged": "com.example.kaspi.app-mergeDebugResources-60:/layout/item_message.xml",
+        "source": "com.example.kaspi.app-main-63:/layout/item_message.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-mergeDebugResources-60:\\layout\\fragment_articles.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-main-63:\\layout\\fragment_articles.xml"
+        "merged": "com.example.kaspi.app-mergeDebugResources-60:/layout/item_document.xml",
+        "source": "com.example.kaspi.app-main-63:/layout/item_document.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-mergeDebugResources-60:\\layout\\fragment_amazon.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-main-63:\\layout\\fragment_amazon.xml"
+        "merged": "com.example.kaspi.app-mergeDebugResources-60:/layout/fragment_message_detail.xml",
+        "source": "com.example.kaspi.app-main-63:/layout/fragment_message_detail.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-mergeDebugResources-60:\\layout\\fragment_message_detail.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-main-63:\\layout\\fragment_message_detail.xml"
+        "merged": "com.example.kaspi.app-mergeDebugResources-60:/layout/fragment_statistics.xml",
+        "source": "com.example.kaspi.app-main-63:/layout/fragment_statistics.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-mergeDebugResources-60:\\layout\\fragment_qr.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-main-63:\\layout\\fragment_qr.xml"
+        "merged": "com.example.kaspi.app-mergeDebugResources-60:/layout/fragment_qr.xml",
+        "source": "com.example.kaspi.app-main-63:/layout/fragment_qr.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-mergeDebugResources-60:\\layout\\item_product.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-main-63:\\layout\\item_product.xml"
+        "merged": "com.example.kaspi.app-mergeDebugResources-60:/layout/fragment_articles.xml",
+        "source": "com.example.kaspi.app-main-63:/layout/fragment_articles.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-mergeDebugResources-60:\\layout\\fragment_shop.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-main-63:\\layout\\fragment_shop.xml"
+        "merged": "com.example.kaspi.app-mergeDebugResources-60:/layout/item_product.xml",
+        "source": "com.example.kaspi.app-main-63:/layout/item_product.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-mergeDebugResources-60:\\layout\\fragment_statistics.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-main-63:\\layout\\fragment_statistics.xml"
+        "merged": "com.example.kaspi.app-mergeDebugResources-60:/layout/fragment_kaspi.xml",
+        "source": "com.example.kaspi.app-main-63:/layout/fragment_kaspi.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-mergeDebugResources-60:\\layout\\fragment_goverment.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-main-63:\\layout\\fragment_goverment.xml"
+        "merged": "com.example.kaspi.app-mergeDebugResources-60:/layout/fragment_services.xml",
+        "source": "com.example.kaspi.app-main-63:/layout/fragment_services.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-mergeDebugResources-60:\\layout\\item_transaction.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-main-63:\\layout\\item_transaction.xml"
+        "merged": "com.example.kaspi.app-mergeDebugResources-60:/layout/fragment_amazon.xml",
+        "source": "com.example.kaspi.app-main-63:/layout/fragment_amazon.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-mergeDebugResources-60:\\layout\\fragment_cart.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-main-63:\\layout\\fragment_cart.xml"
+        "merged": "com.example.kaspi.app-mergeDebugResources-60:/layout/fragment_home.xml",
+        "source": "com.example.kaspi.app-main-63:/layout/fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-mergeDebugResources-60:\\layout\\fragment_travel.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-main-63:\\layout\\fragment_travel.xml"
+        "merged": "com.example.kaspi.app-mergeDebugResources-60:/layout/fragment_notifications.xml",
+        "source": "com.example.kaspi.app-main-63:/layout/fragment_notifications.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-mergeDebugResources-60:\\layout\\fragment_store.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-main-63:\\layout\\fragment_store.xml"
+        "merged": "com.example.kaspi.app-mergeDebugResources-60:/layout/activity_main.xml",
+        "source": "com.example.kaspi.app-main-63:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-mergeDebugResources-60:\\layout\\fragment_transactions.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-main-63:\\layout\\fragment_transactions.xml"
+        "merged": "com.example.kaspi.app-mergeDebugResources-60:/layout/fragment_halyk.xml",
+        "source": "com.example.kaspi.app-main-63:/layout/fragment_halyk.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-mergeDebugResources-60:\\layout\\fragment_documents.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-main-63:\\layout\\fragment_documents.xml"
+        "merged": "com.example.kaspi.app-mergeDebugResources-60:/layout/fragment_goverment.xml",
+        "source": "com.example.kaspi.app-main-63:/layout/fragment_goverment.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-mergeDebugResources-60:\\layout\\fragment_notifications.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-main-63:\\layout\\fragment_notifications.xml"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-mergeDebugResources-60:\\layout\\item_document.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-main-63:\\layout\\item_document.xml"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-mergeDebugResources-60:\\layout\\fragment_services.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-main-63:\\layout\\fragment_services.xml"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-mergeDebugResources-60:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-main-63:\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-mergeDebugResources-60:\\layout\\item_message.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-main-63:\\layout\\item_message.xml"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-mergeDebugResources-60:\\layout\\fragment_magnum.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-main-63:\\layout\\fragment_magnum.xml"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-mergeDebugResources-60:\\layout\\fragment_devices.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-main-63:\\layout\\fragment_devices.xml"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-mergeDebugResources-60:\\layout\\fragment_kaspi.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-main-63:\\layout\\fragment_kaspi.xml"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-mergeDebugResources-60:\\layout\\fragment_balance.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.example.kaspi.app-main-63:\\layout\\fragment_balance.xml"
+        "merged": "com.example.kaspi.app-mergeDebugResources-60:/layout/fragment_store.xml",
+        "source": "com.example.kaspi.app-main-63:/layout/fragment_store.xml"
     }
 ]

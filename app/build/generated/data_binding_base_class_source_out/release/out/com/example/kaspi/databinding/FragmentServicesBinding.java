@@ -4,10 +4,11 @@ package com.example.kaspi.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.kaspi.R;
@@ -17,20 +18,46 @@ import java.lang.String;
 
 public final class FragmentServicesBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final ScrollView rootView;
 
   @NonNull
-  public final TextView textServices;
+  public final Button btnServiceAction1;
 
-  private FragmentServicesBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView textServices) {
+  @NonNull
+  public final Button btnServiceAction2;
+
+  @NonNull
+  public final TextView tvServiceDescription1;
+
+  @NonNull
+  public final TextView tvServiceDescription2;
+
+  @NonNull
+  public final TextView tvServiceName1;
+
+  @NonNull
+  public final TextView tvServiceName2;
+
+  @NonNull
+  public final TextView tvServicesHeader;
+
+  private FragmentServicesBinding(@NonNull ScrollView rootView, @NonNull Button btnServiceAction1,
+      @NonNull Button btnServiceAction2, @NonNull TextView tvServiceDescription1,
+      @NonNull TextView tvServiceDescription2, @NonNull TextView tvServiceName1,
+      @NonNull TextView tvServiceName2, @NonNull TextView tvServicesHeader) {
     this.rootView = rootView;
-    this.textServices = textServices;
+    this.btnServiceAction1 = btnServiceAction1;
+    this.btnServiceAction2 = btnServiceAction2;
+    this.tvServiceDescription1 = tvServiceDescription1;
+    this.tvServiceDescription2 = tvServiceDescription2;
+    this.tvServiceName1 = tvServiceName1;
+    this.tvServiceName2 = tvServiceName2;
+    this.tvServicesHeader = tvServicesHeader;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public ScrollView getRoot() {
     return rootView;
   }
 
@@ -55,13 +82,51 @@ public final class FragmentServicesBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.text_services;
-      TextView textServices = ViewBindings.findChildViewById(rootView, id);
-      if (textServices == null) {
+      id = R.id.btnServiceAction1;
+      Button btnServiceAction1 = ViewBindings.findChildViewById(rootView, id);
+      if (btnServiceAction1 == null) {
         break missingId;
       }
 
-      return new FragmentServicesBinding((ConstraintLayout) rootView, textServices);
+      id = R.id.btnServiceAction2;
+      Button btnServiceAction2 = ViewBindings.findChildViewById(rootView, id);
+      if (btnServiceAction2 == null) {
+        break missingId;
+      }
+
+      id = R.id.tvServiceDescription1;
+      TextView tvServiceDescription1 = ViewBindings.findChildViewById(rootView, id);
+      if (tvServiceDescription1 == null) {
+        break missingId;
+      }
+
+      id = R.id.tvServiceDescription2;
+      TextView tvServiceDescription2 = ViewBindings.findChildViewById(rootView, id);
+      if (tvServiceDescription2 == null) {
+        break missingId;
+      }
+
+      id = R.id.tvServiceName1;
+      TextView tvServiceName1 = ViewBindings.findChildViewById(rootView, id);
+      if (tvServiceName1 == null) {
+        break missingId;
+      }
+
+      id = R.id.tvServiceName2;
+      TextView tvServiceName2 = ViewBindings.findChildViewById(rootView, id);
+      if (tvServiceName2 == null) {
+        break missingId;
+      }
+
+      id = R.id.tvServicesHeader;
+      TextView tvServicesHeader = ViewBindings.findChildViewById(rootView, id);
+      if (tvServicesHeader == null) {
+        break missingId;
+      }
+
+      return new FragmentServicesBinding((ScrollView) rootView, btnServiceAction1,
+          btnServiceAction2, tvServiceDescription1, tvServiceDescription2, tvServiceName1,
+          tvServiceName2, tvServicesHeader);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

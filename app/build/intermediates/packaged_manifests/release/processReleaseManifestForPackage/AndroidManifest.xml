@@ -98,6 +98,11 @@
             </intent-filter>
         </receiver>
 
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.example.kaspi.com.squareup.picasso"
+            android:exported="false" />
+
         <activity
             android:name="com.journeyapps.barcodescanner.CaptureActivity"
             android:clearTaskOnLaunch="true"

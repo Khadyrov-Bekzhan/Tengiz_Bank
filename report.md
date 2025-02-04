@@ -12,4 +12,4 @@
 # Итоги и выводы
 Проект успешно завершен, все поставленные цели достигнуты. Банковское веб-приложение готово к использованию.
 
-(![alt text](ic_launcher)
+(![alt text]([ic_launcher](https://github.com/Khadyrov-Bekzhan/Tengiz_Bank/blob/25343cce6085de8b77b9ce6c14b8091bea430f8a/app/src/main/res/drawable/ic_launcher_background.xml#L4))

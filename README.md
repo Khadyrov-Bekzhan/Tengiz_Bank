@@ -1,6 +1,7 @@
 # TENGIZ_BANK
 
 ссылка на githubpage https://khadyrov-bekzhan.github.io/Tengiz_Bank/
+ссылка на https://github.com/Khadyrov-Bekzhan/Tengiz_Bank/blob/master/report.md
 
 ## Описание
 **TENGIZ_BANK** — мобильное приложение для управления финансовыми услугами, позволяющее пользователям удобно проверять баланс, управлять документами и анализировать свои расходы.
